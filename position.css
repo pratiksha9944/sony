@@ -1,0 +1,42 @@
+.static{
+    border:1px solid darkgreen;
+    position: static;
+    left: 200px;
+}
+.rel{
+    border:1px dotted crimson;
+    position: relative;
+    left: 200px;
+    bottom: 20px;
+}
+.fix{
+    position: fixed;
+    border:1px solid hotpink ;
+    width: 900px;
+    height: 20px;
+    left: 100px;
+}
+.stick{
+    position: sticky;
+    border:1px solid indigo;
+    overflow-y: scroll;
+    top: 30px;
+
+}
+.stick1{
+    position: sticky;
+    border:1px solid cornflowerblue;
+    overflow-y: scroll;
+    background-color: brown;
+    
+}
+.parent{
+    background-color: blue;
+    font-style: italic;
+    font-size: 50px;
+}
+.innermain{
+    position: absolute;
+    border:1px dotted darkcyan;
+    left: 500px;
+}
